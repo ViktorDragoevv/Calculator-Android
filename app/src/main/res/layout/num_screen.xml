@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/black">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/first"
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text=""
+        android:gravity="end"
+        android:padding="12dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="50dp"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/operatiron"
+
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text=""
+        android:gravity="end"
+        android:padding="12dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/in"
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text=""
+        android:gravity="end"
+        android:padding="12dp">
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:id="@+id/res"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="Result:"
+        android:padding="12dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:id="@+id/out"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text=""
+        android:padding="12dp">
+
+    </TextView>
+
+
+</LinearLayout>
+
+</LinearLayout>
